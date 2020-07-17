@@ -1,0 +1,23 @@
+/*
+  Theme Name: DATA EG CONSULTING version 1.5
+  Theme URI: https://dataeg.com
+  Description: web diseño
+  Version: 1.5
+  Author: Fulbert Mba Obama | @MbaObama
+  Author URI: https://dataeg.com 
+*/
+
+.blue     { color: #007bff !important;}
+.indigo   { color: #6610f2 !important;}
+.purple   { color: #6f42c1!important;}
+.pink     { color: #e83e8c!important;}
+.red      { color: #dc3545!important;}
+.orange   { color: #fd7e14!important;}
+.yellow   { color: #ffc107!important;}
+.green    { color: #28a745!important;}
+.teal     { color: #20c997!important;}
+.cyan     { color: #17a2b8!important;}
+.gray     { color: #6c757d!important;}
+.gray-dark{ color: #343a40!important;}
+.bg-gray { background: #f1f1f1}
+
