@@ -47,10 +47,7 @@
         <?php echo get_template_part('template-parts/blog', 'destacados');?>
         <!-- Blog Section -->
 
-        <!-- Ready Section -->
-        <?php echo get_template_part('template-parts/contacto', 'pie');?>
-        </section>
-        <!-- Ready Section -->
+
 
 
         

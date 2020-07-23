@@ -1,10 +1,30 @@
+
+<!-- Quote Section -->
+<section class="noPadding">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-sm-6 noPadding">
+                <div class="btn_link bg_black">
+                    <a href="#">ver nuestro trabajo reciente</a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6 noPadding">
+                <div class="btn_link ">
+                    <a href="#">PÍDENOS UN PRESUPUESTO AHORA.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Quote Section -->
+
 <!-- Footer Section -->
 <footer class="footer_1">
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-sm-6 col-md-5">
                 <aside class="widget aboutwidget">
-                    <?php get_template_part( 'page-templates/parts/logo' ); ?> 
+                <h3 class="widget_title">DATA EG CONSULTING</h3> 
                     <p>
                     Somos una agencia digital donde nos apasiona la tecnología, 
                     nos centramos en la estrategia y creamos páginas web que generan resultados tangibles.

@@ -34,20 +34,19 @@
         <div class="row">
             <div class="col-lg-12 col-sm-12">
                 <div class="CL_content">
-                 <?php 
-                $image = dataeg_get_config('logo_confianza');
-                if( !empty( $image ) ): ?>
-                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-                <?php endif; ?> 
-                
- 
-                        <div class="abc_inner">
+                    <?php 
+                    $image = dataeg_get_config('logo_confianza');
+                    if( !empty( $image ) ): ?>
+                        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                    <?php endif; ?> 
+                    
+                    <div class="abc_inner">
                         <div class="row">
                             <div class="col-lg-5 col-sm-5 col-md-5">
                             </div>
                             <div class="col-lg-7 col-sm-7 col-md-7">
-                                <div class="abci_content">
-                                    <h2><?php echo dataeg_get_config('title_confianza');?></h2>
+                                <div class="abci_content" style="padding: 86px 0 1px 100px;">
+                                    <h2 style="font-size: 21px; letter-spacing: 2px; line-height: 35px;"><?php echo dataeg_get_config('title_confianza');?></h2>
                                     <p> <?php echo dataeg_get_config('texto_confianza');?></p> 
                                 </div>
                             </div>

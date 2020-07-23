@@ -349,7 +349,104 @@
                         
                     ),
                 );
-                
+
+                // Settings Diseño Web 
+                $this->sections[] = array(
+                    'title'         => __( 'Settings Diseño Web  ', 'dataeg' ),
+                    'heading'       => __( 'Settings Diseño Web   ', 'dataeg' ), 
+                    'icon'          => 'el el-website',
+                    'fields'    => array(
+                        
+                        array(
+                            'id' => 'logo_web_header',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Header', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
+                        ),
+
+                        array(
+                            'id' => 'logo_web_page',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Page', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
+                        ),
+                        
+                    ),
+                );
+
+                // Settings Diseño Web Wordpress  
+                $this->sections[] = array(
+                    'title'         => __( 'Settings Diseño Web Wordpress  ', 'dataeg' ),
+                    'heading'       => __( 'Settings Diseño Web Wordpress   ', 'dataeg' ), 
+                    'icon'          => 'el el-website',
+                    'fields'    => array(
+                        
+                        array(
+                            'id' => 'logo_wordpress_header',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Header', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
+                        ),
+
+                        array(
+                            'id' => 'logo_wordpress_page',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Page', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
+                        ),
+                        
+                    ),
+                );
+
+
+                // Settings Tienda Online  
+                $this->sections[] = array(
+                    'title'         => __( 'Settings Tienda Online  ', 'dataeg' ),
+                    'heading'       => __( 'Settings Tienda Online   ', 'dataeg' ), 
+                    'icon'          => 'el el-website',
+                    'fields'    => array(
+                        
+                        array(
+                            'id' => 'logo_tienda_header',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Header', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
+                        ),
+
+                        array(
+                            'id' => 'logo_tienda_page',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Page', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
+                        ),
+                        
+                    ),
+                );
+
+                // Settings Marketing Online  
+                $this->sections[] = array(
+                    'title'         => __( 'Settings Marketing Online  ', 'dataeg' ),
+                    'heading'       => __( 'Settings Marketing Online   ', 'dataeg' ), 
+                    'icon'          => 'el el-website',
+                    'fields'    => array(
+                        
+                        array(
+                            'id' => 'logo_marketing_header',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Header', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
+                        ),
+
+                        array(
+                            'id' => 'logo_marketing_page',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Page', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
+                        ),
+                        
+                    ),
+                );
+
 
 				//General Settings
 				$this->sections[] = array(

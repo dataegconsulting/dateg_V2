@@ -1,6 +1,11 @@
-<section class="commonSection porfolioPage">
+<section class="commonSection porfolioPage" style="padding: 220px 0px 100px 0px;">
     <div class="container">
         <div class="row">
+        <div class="col-lg-12 text-center">
+                        <h4 class="sub_title" style="letter-spacing: 6px; color: #cf2e2e;"><strong>PROYECTOS</strong></h4>
+                        <h2 class="sec_title" style="color:#1e3e55; padding-top: 15px;"><strong>No tendríamos casos de éxito<br>
+sin los éxitos de nuestros clientes.</strong></h2> 
+                    </div>
             <div class="col-lg-12">
                 <div class="folio_mixing">
                     <?php

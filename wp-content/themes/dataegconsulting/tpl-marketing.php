@@ -4,8 +4,9 @@
 get_header(); ?>
 
 <!-- Page Banner -->
-<?php get_template_part( 'template-parts/pagebanner' ); ?>
+<?php get_template_part( 'template-parts/header-servicios' ); ?>
 <!-- Page Banner -->
+
 <section class="commonSection  bg-gray" style="padding-top:100px;  background:#EBEFF4;">
     <div class="container">
         <div class="row">

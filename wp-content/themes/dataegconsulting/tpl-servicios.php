@@ -3,9 +3,13 @@
 <?php
 get_header(); ?>
 
+
 <!-- Page Banner -->
-<?php get_template_part( 'template-parts/pagebanner' ); ?>
+<?php get_template_part( 'template-parts/header-servicios' ); ?>
 <!-- Page Banner -->
+ 
+
+ 
 
 <section class="commonSection featured">
     <div class="container">
@@ -38,23 +42,40 @@ get_header(); ?>
                 </div>
             </div>
             <div class="col-lg-5 col-sm-12 col-md-5 noPaddingRight">
-                <div class="features_img"> 
-                    <?php 
-                        if (have_posts()) :
-                            while (have_posts()) : the_post(); ?>
-                                <?php the_post_thumbnail(
-                                    array(770, 305),
-                                    array(
-                                        'class' => '',
-                                    )
-                                );
-                                ?>  <?php
-                            endwhile;
-                        else : ?>
-                            <p><?php esc_html_e('Sorry, no posts matched your criteria.'); ?></p> 
-                            <?php 
-                        endif;
-                    ?> 
+                <div class="features_img">  
+                    <?php
+                        if ( is_page(array( 'diseno-paginas-web' ) ) ) {    
+                            $image = dataeg_get_config('logo_web_page');
+                            if( !empty( $image ) ): 
+                                echo '<img src = "'.$image["url"].'">'; 
+                            endif;   
+                        } 
+                        
+                        elseif ( is_page(array( 'diseno-web-wordpress' ) ) ) {   
+                            $image = dataeg_get_config('logo_wordpress_page');
+                            if( !empty( $image ) ): 
+                                echo '<img src = "'.$image["url"].'">';
+                            endif;  
+                        } 
+
+                        elseif ( is_page(array( 'diseno-tiendas-online' ) ) ) { 
+                            $image = dataeg_get_config('logo_tienda_page');
+                            if( !empty( $image ) ): 
+                                echo '<img src = "'.$image["url"].'">';
+                            endif; 
+                        } 
+
+                        elseif ( is_page(array( 'marketing-online' ) ) ) {   
+                            $image = dataeg_get_config('logo_marketing_page');
+                            if( !empty( $image ) ): 
+                                echo '<img src = "'.$image["url"].'">';
+                            endif; 
+                        } 
+
+                        else { 
+                            echo  'Nada para Monstrar'; 
+                        }   
+                    ?>
                 </div>
             </div>
         </div>

@@ -77,7 +77,17 @@ $table_prefix = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true ); 
+
+// Activar registro de depuración al fichero /wp-content/debug.log
+define('WP_DEBUG_LOG', true);
+
+// Desactiva mostrar los errores y avisos 
+define('WP_DEBUG_DISPLAY', false);
+@ini_set('display_errors',0);
+
+// Usa versiones dev de ficheros centrales JS y CSS (solo necesario si estás modificando esos ficheros centrales)
+define('SCRIPT_DEBUG', true);
 
 /* That's all, stop editing! Happy publishing. */
 

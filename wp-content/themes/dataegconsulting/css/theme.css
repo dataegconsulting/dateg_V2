@@ -58,7 +58,7 @@
     z-index: 5;
     background: transparent;
     padding: 25px 40px 0 45px;
-    border-bottom: 2px solid rgba(255, 255, 255, .10);
+    /* border-bottom: 2px solid rgba(255, 255, 255, .10); */
 }
 .logo{
     text-align: left;
@@ -80,7 +80,7 @@
     list-style: none;
     display: inline-block;
     line-height: .8;
-    padding: 0 10px 53px;
+    padding: 0 15px 53px;
     position: relative;
 }
 .mainmenu ul li a{
@@ -167,7 +167,7 @@
 
 .navigator{
     position: relative;
-    padding: 9px 0 37px;
+    padding: 12px 0 37px;
 }
 .navigator a{
     display: inline-block;
@@ -288,6 +288,85 @@
     display: none;
 }
 
+
+/*-------------------------
+    page title 
+-------------------------*/
+#page-title {
+    height:650px;
+    background-size: cover; 
+    background-position: center center; 
+}
+.page-title::before{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: inline-block;
+	background-color: rgba(0,0,0,0.5);
+}
+  
+.pagetitle__subheading { 
+    font-size: 17px;
+    letter-spacing: 10px;
+    line-height: 1;
+    color: #f9f9f9;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.pagetitle__heading {
+    font-size: 75px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.pagetitle__desc {
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.page-title {
+    padding: 250px 0 86px;
+    text-align: center;
+}
+
+/* Medium Size Devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .page-title {
+        padding: 200px 0 60px;
+    }
+
+    #page-title {
+        height:auto!important; 
+    }
+}
+
+/* Mobile Phones and tablets */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    #page-title {
+        height:auto!important; 
+    }
+
+    .page-title {
+        padding: 100px 0 50px;
+    }
+
+    .pagetitle__desc {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .pagetitle__heading {
+        font-size: 32px;
+    }
+}
+  
 /*----------------------------------------------------
 / 3. Services Section
 ------------------------------------------------------*/
@@ -1139,7 +1218,7 @@
 / 12. Blog Section
 ------------------------------------------------------*/
 .blog{
-    padding-bottom: 60px;
+    padding-bottom: 0px;
 }
 .latestBlogItem{
     position: relative;
@@ -1254,12 +1333,12 @@
 ------------------------------------------------------*/
 .footer_1{
     position: relative;
-    padding: 130px 0 0;
+    padding: 70px 0 0;
     background: url(../img/bg/5.jpg) no-repeat center center / cover;
 }
 .footer_1 .widget{
     position: relative;
-    padding: 0 0 112px;
+    padding: 0 0 45px;
 }
 .footer_1 .widget .widget_title {
     font-size: 18px;
@@ -1843,8 +1922,8 @@
 ------------------------------------------------------*/
 .pageBanner {
     position: relative;
-    min-height: 381px; 
-    padding-top: 210px;
+    min-height: 465px; 
+    padding-top: 224px;
     background: rgb(0, 0, 0);
 }
 .banner_content{

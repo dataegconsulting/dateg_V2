@@ -20,7 +20,7 @@ get_header(); ?>
 <!-- Page Banner -->
 
 <!-- Our Client 2 Section -->
-<section class="commonSection client_2" style="padding: 120px 0px 0px 0px;!important">
+<section class="commonSection client_2" style="padding: 120px 0px 0px 0px;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center"> 

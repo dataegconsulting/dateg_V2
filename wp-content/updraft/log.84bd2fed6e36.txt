@@ -1,0 +1,263 @@
+0000.001 (0) Opened log file at time: Sun, 19 Jul 2020 00:53:52 +0000 on http://www.dataeg-consulting.com.devel
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.2 PHP: 7.2.18 (apache2handler, Windows NT SSG-LP-CNIAP-44 10.0 build 18363 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: es_ES Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 13.3M | 2M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 11045.6 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.012 (0) Semaphore (fd, wp_options) being initialised
+0000.015 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.059 (0) Set semaphore last lock (fd) time to 2020-07-19 00:53:52
+0000.064 (0) Semaphore lock (fd) complete
+0000.077 (0) Backup run: resumption=0, nonce=84bd2fed6e36, file_nonce=84bd2fed6e36 begun at=1595120032 (0s ago), job type=backup
+0000.081 (0) Scheduling a resumption (1) after 300 seconds (1595120332) in case this run gets aborted
+0000.122 (0) Checking if we have a zip executable available
+0000.126 (0) Creation of backups of directories: beginning
+0000.135 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.036 (0) Total entities for the zip file: 408 directories, 2691 files (0 skipped as non-modified), 41.8 MB
+0002.707 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.8 MB, 75 (75) files added so far); re-opening (prior size: 0 KB)
+0003.921 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 100 files added (on-disk size: 543.6 KB)
+0005.689 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 100 (175) files added so far); re-opening (prior size: 543.6 KB)
+0006.031 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 200 files added (on-disk size: 738.7 KB)
+0007.905 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 300 files added (on-disk size: 738.7 KB)
+0008.726 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.5 MB, 165 (340) files added so far); re-opening (prior size: 738.7 KB)
+0010.042 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 400 files added (on-disk size: 2300.2 KB)
+0011.482 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 500 files added (on-disk size: 2300.2 KB)
+0011.687 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.4 MB, 170 (510) files added so far); re-opening (prior size: 2300.2 KB)
+0012.900 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 600 files added (on-disk size: 2696.7 KB)
+0013.969 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 700 files added (on-disk size: 2696.7 KB)
+0014.686 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.9 MB, 273 (783) files added so far); re-opening (prior size: 2696.7 KB)
+0015.366 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 800 files added (on-disk size: 3310.2 KB)
+0015.884 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 900 files added (on-disk size: 3310.2 KB)
+0016.956 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 1000 files added (on-disk size: 3310.2 KB)
+0017.689 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3 MB, 271 (1054) files added so far); re-opening (prior size: 3310.2 KB)
+0018.431 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 1100 files added (on-disk size: 4249 KB)
+0019.696 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 1200 files added (on-disk size: 4249 KB)
+0021.018 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1 MB, 195 (1249) files added so far); re-opening (prior size: 4249 KB)
+0021.937 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 1300 files added (on-disk size: 4514.2 KB)
+0022.041 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 1400 files added (on-disk size: 4514.2 KB)
+0022.070 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 1500 files added (on-disk size: 4514.2 KB)
+0022.100 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 1600 files added (on-disk size: 4514.2 KB)
+0022.129 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 1700 files added (on-disk size: 4514.2 KB)
+0022.145 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (20.5 MB, 2691 files batched, 501 (1750) added so far); re-opening (prior size: 4514.2 KB)
+0023.779 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 1800 files added (on-disk size: 10432.4 KB)
+0023.810 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 1900 files added (on-disk size: 10432.4 KB)
+0023.840 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 2000 files added (on-disk size: 10432.4 KB)
+0023.870 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 2100 files added (on-disk size: 10432.4 KB)
+0023.901 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 2200 files added (on-disk size: 10432.4 KB)
+0023.920 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 MB, 2691 files batched, 501 (2251) added so far); re-opening (prior size: 10432.4 KB)
+0024.197 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 2300 files added (on-disk size: 11147.6 KB)
+0024.429 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 2400 files added (on-disk size: 11147.6 KB)
+0024.462 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 2500 files added (on-disk size: 11147.6 KB)
+0024.495 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip.tmp: 2600 files added (on-disk size: 11147.6 KB)
+0025.946 (0) Created plugins zip (0) - 13924.2 KB in 25.8 s (539.5 KB/s) (sha1: 8146ef181f830bd6def73c37f65ebb5e2faa83e5, sha256: cc144d7a475cd82dcbf9e92bb1ac680be6821a81b48763e3e93ed10b542f2e23)
+0025.950 (0) Beginning creation of dump of themes (split every: 400 MB)
+0026.126 (0) Total entities for the zip file: 48 directories, 368 files (0 skipped as non-modified), 9.4 MB
+0026.894 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0028.712 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.7 MB, 185 (185) files added so far); re-opening (prior size: 0 KB)
+0029.213 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-themes.zip.tmp: 200 files added (on-disk size: 2774.1 KB)
+0030.486 (0) Zip: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-themes.zip.tmp: 300 files added (on-disk size: 2774.1 KB)
+0031.775 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.6 MB, 167 (352) files added so far); re-opening (prior size: 2774.1 KB)
+0032.841 (0) Created themes zip (0) - 5450.1 KB in 6.9 s (791.1 KB/s) (sha1: efad86c267db3f50a4be3f4530d322824c8666b3, sha256: 684c39ff4ab71f74715a7ca9fb09fb86eafe4cf7191f5d8e4e4e87e061a89169)
+0032.851 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0032.853 (0) Looking for candidates to backup in: E:\wamp64\www\dataeg-consulting/wp-content/uploads
+0032.856 (0) finding files: 12-150x150.png: adding to list (1)
+0032.859 (0) finding files: 12-234x300.png: adding to list (2)
+0032.862 (0) finding files: 12.png: adding to list (3)
+0032.866 (0) finding files: 2020: adding to list (4)
+0032.868 (0) finding files: banner02-1024x462.jpg: adding to list (5)
+0032.869 (0) finding files: banner02-150x150.jpg: adding to list (6)
+0032.870 (0) finding files: banner02-1536x694.jpg: adding to list (7)
+0032.871 (0) finding files: banner02-300x135.jpg: adding to list (8)
+0032.873 (0) finding files: banner02-768x347.jpg: adding to list (9)
+0032.874 (0) finding files: banner02.jpg: adding to list (10)
+0032.875 (0) finding files: bannge-150x150.jpg: adding to list (11)
+0032.876 (0) finding files: bannge-300x300.jpg: adding to list (12)
+0032.877 (0) finding files: bannge.jpg: adding to list (13)
+0032.879 (0) finding files: cropped-favicon-150x150.png: adding to list (14)
+0032.880 (0) finding files: cropped-favicon-180x180.png: adding to list (15)
+0032.882 (0) finding files: cropped-favicon-192x192.png: adding to list (16)
+0032.883 (0) finding files: cropped-favicon-270x270.png: adding to list (17)
+0032.884 (0) finding files: cropped-favicon-300x300.png: adding to list (18)
+0032.885 (0) finding files: cropped-favicon-32x32.png: adding to list (19)
+0032.887 (0) finding files: cropped-favicon.png: adding to list (20)
+0032.888 (0) finding files: diseno_web-150x150.jpg: adding to list (21)
+0032.889 (0) finding files: diseno_web-300x179.jpg: adding to list (22)
+0032.890 (0) finding files: diseno_web-768x459.jpg: adding to list (23)
+0032.892 (0) finding files: diseno_web.jpg: adding to list (24)
+0032.893 (0) finding files: favicon-150x150.png: adding to list (25)
+0032.894 (0) finding files: favicon-300x300.png: adding to list (26)
+0032.895 (0) finding files: favicon.png: adding to list (27)
+0032.896 (0) finding files: Inventiva-Pensamiento-Creativo--1024x813.jpg: adding to list (28)
+0032.899 (0) finding files: Inventiva-Pensamiento-Creativo--150x150.jpg: adding to list (29)
+0032.900 (0) finding files: Inventiva-Pensamiento-Creativo--1536x1219.jpg: adding to list (30)
+0032.901 (0) finding files: Inventiva-Pensamiento-Creativo--300x238.jpg: adding to list (31)
+0032.903 (0) finding files: Inventiva-Pensamiento-Creativo--768x610.jpg: adding to list (32)
+0032.904 (0) finding files: Inventiva-Pensamiento-Creativo-.jpg: adding to list (33)
+0032.905 (0) finding files: js_composer: adding to list (34)
+0032.907 (0) finding files: logo-1-150x65.png: adding to list (35)
+0032.909 (0) finding files: logo-1.png: adding to list (36)
+0032.912 (0) finding files: s8-150x150.jpg: adding to list (37)
+0032.914 (0) finding files: s8-300x201.jpg: adding to list (38)
+0032.916 (0) finding files: s8.jpg: adding to list (39)
+0032.917 (0) finding files: total_eg-150x150.jpg: adding to list (40)
+0032.919 (0) finding files: total_eg-300x300.jpg: adding to list (41)
+0032.920 (0) finding files: total_eg.jpg: adding to list (42)
+0032.921 (0) finding files: what-150x150.jpg: adding to list (43)
+0032.923 (0) finding files: what-300x185.jpg: adding to list (44)
+0032.924 (0) finding files: what.jpg: adding to list (45)
+0032.926 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0033.059 (0) Total entities for the zip file: 3 directories, 44 files (0 skipped as non-modified), 1.5 MB
+0033.753 (0) Created uploads zip (0) - 1536.9 KB in 0.8 s (1864.3 KB/s) (sha1: 550a2a7998f6e42a3aa6a4c7870b4437ffa3aa38, sha256: 0d485e840f5cd84525996e582fbb527f0592d82e308a8f3b5e6af652620b8a10)
+0033.757 (0) Beginning backup of other directories found in the content directory (index: 0)
+0033.758 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0033.759 (0) Looking for candidates to backup in: E:\wamp64\www\dataeg-consulting/wp-content
+0033.761 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0033.762 (0) finding files: index.php: adding to list (1)
+0033.764 (0) finding files: languages: adding to list (2)
+0033.765 (0) finding files: plugins: skipping: this is the plugins directory
+0033.766 (0) finding files: themes: skipping: this is the themes directory
+0033.768 (0) finding files: updraft: skipping: this is the updraft directory
+0033.769 (0) finding files: upgrade: skipping: excluded by options
+0033.770 (0) finding files: uploads: skipping: this is the uploads directory
+0033.781 (0) Total entities for the zip file: 1 directories, 26 files (0 skipped as non-modified), 2.3 MB
+0034.297 (0) Created others zip (0) - 650.5 KB in 0.5 s (1241.2 KB/s) (sha1: 8c72478c8652da36a90a0a9ddd7a8282d193ec4c, sha256: e9f0b6f91878ee964ddd0d28c356d661fe3f58600048c9dce12c27b4926dbf85)
+0034.303 (0) Saving backup status to database (elements: 8)
+0034.305 (0) Beginning creation of database dump (WordPress DB)
+0034.716 (0) Table wp_options: Total expected rows (approximate): 234
+0034.734 (0) Table wp_options: Rows added in this batch (start page: 0; next: finished): 230 in 0.02 seconds
+0034.745 (0) Table wp_options: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_options.table.gz - 13.7 KB)
+0034.753 (0) Table wp_users: Total expected rows (approximate): 1
+0034.757 (0) Table wp_users: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0034.765 (0) Table wp_users: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_users.table.gz - 0.5 KB)
+0034.770 (0) Table wp_usermeta: Total expected rows (approximate): 41
+0034.774 (0) Table wp_usermeta: Rows added in this batch (start page: 0; next: finished): 41 in 0.00 seconds
+0034.781 (0) Table wp_usermeta: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_usermeta.table.gz - 1.6 KB)
+0034.787 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0034.790 (0) Table wp_commentmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0034.797 (0) Table wp_commentmeta: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0034.803 (0) Table wp_comments: Total expected rows (approximate): 0
+0034.806 (0) Table wp_comments: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0034.813 (0) Table wp_comments: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_comments.table.gz - 0.5 KB)
+0034.835 (0) Table wp_links: Total expected rows (approximate): 0
+0034.838 (0) Table wp_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0034.845 (0) Table wp_links: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_links.table.gz - 0.4 KB)
+0034.851 (0) Table wp_postmeta: Total expected rows (approximate): 4141
+0034.966 (0) Table wp_postmeta: Rows added in this batch (start page: 0; next: finished): 4141 in 0.11 seconds
+0034.974 (0) Table wp_postmeta: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_postmeta.table.gz - 36.2 KB)
+0034.980 (0) Table wp_posts: Total expected rows (approximate): 271
+0035.022 (0) Table wp_posts: Rows added in this batch (start page: 0; next: finished): 271 in 0.04 seconds
+0035.031 (0) Table wp_posts: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_posts.table.gz - 19.6 KB)
+0035.036 (0) Table wp_term_relationships: Total expected rows (approximate): 36
+0035.040 (0) Table wp_term_relationships: Rows added in this batch (start page: 0; next: finished): 36 in 0.00 seconds
+0035.047 (0) Table wp_term_relationships: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0035.052 (0) Table wp_term_taxonomy: Total expected rows (approximate): 16
+0035.056 (0) Table wp_term_taxonomy: Rows added in this batch (start page: 0; next: finished): 16 in 0.00 seconds
+0035.063 (0) Table wp_term_taxonomy: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0035.069 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0035.072 (0) Table wp_termmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0035.080 (0) Table wp_termmeta: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_termmeta.table.gz - 0.4 KB)
+0035.086 (0) Table wp_terms: Total expected rows (approximate): 16
+0035.090 (0) Table wp_terms: Rows added in this batch (start page: 0; next: finished): 16 in 0.00 seconds
+0035.097 (0) Table wp_terms: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_terms.table.gz - 0.7 KB)
+0035.127 (0) Table wp_imgoptimizations: Total expected rows (approximate): 43
+0035.133 (0) Table wp_imgoptimizations: Rows added in this batch (start page: 0; next: finished): 43 in 0.00 seconds
+0035.139 (0) Table wp_imgoptimizations: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_imgoptimizations.table.gz - 1.8 KB)
+0035.145 (0) Table wp_imgoptimizeractions: Total expected rows (approximate): 11
+0035.149 (0) Table wp_imgoptimizeractions: Rows added in this batch (start page: 0; next: finished): 11 in 0.00 seconds
+0035.155 (0) Table wp_imgoptimizeractions: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_imgoptimizeractions.table.gz - 0.5 KB)
+0035.187 (0) Table wp_revslider_css: Total expected rows (approximate): 109
+0035.196 (0) Table wp_revslider_css: Rows added in this batch (start page: 0; next: finished): 109 in 0.01 seconds
+0035.204 (0) Table wp_revslider_css: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_css.table.gz - 4.8 KB)
+0035.223 (0) Table wp_revslider_css_bkp: Total expected rows (approximate): 47
+0035.229 (0) Table wp_revslider_css_bkp: Rows added in this batch (start page: 0; next: finished): 47 in 0.00 seconds
+0035.236 (0) Table wp_revslider_css_bkp: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_css_bkp.table.gz - 1.8 KB)
+0035.249 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0035.252 (0) Table wp_revslider_layer_animations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0035.259 (0) Table wp_revslider_layer_animations: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0035.272 (0) Table wp_revslider_layer_animations_bkp: Total expected rows (approximate): 0
+0035.275 (0) Table wp_revslider_layer_animations_bkp: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0035.283 (0) Table wp_revslider_layer_animations_bkp: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_layer_animations_bkp.table.gz - 0.3 KB)
+0035.295 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0035.298 (0) Table wp_revslider_navigations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0035.305 (0) Table wp_revslider_navigations: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0035.317 (0) Table wp_revslider_navigations_bkp: Total expected rows (approximate): 0
+0035.319 (0) Table wp_revslider_navigations_bkp: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0035.326 (0) Table wp_revslider_navigations_bkp: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_navigations_bkp.table.gz - 0.3 KB)
+0035.338 (0) Table wp_revslider_sliders: Total expected rows (approximate): 0
+0035.341 (0) Table wp_revslider_sliders: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0035.349 (0) Table wp_revslider_sliders: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_sliders.table.gz - 0.3 KB)
+0035.356 (0) Table wp_revslider_sliders_bkp: Total expected rows (approximate): 0
+0035.360 (0) Table wp_revslider_sliders_bkp: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0035.366 (0) Table wp_revslider_sliders_bkp: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_sliders_bkp.table.gz - 0.3 KB)
+0035.380 (0) Table wp_revslider_slides: Total expected rows (approximate): 0
+0035.382 (0) Table wp_revslider_slides: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0035.389 (0) Table wp_revslider_slides: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_slides.table.gz - 0.3 KB)
+0035.397 (0) Table wp_revslider_slides_bkp: Total expected rows (approximate): 0
+0035.400 (0) Table wp_revslider_slides_bkp: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0035.407 (0) Table wp_revslider_slides_bkp: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_slides_bkp.table.gz - 0.3 KB)
+0035.420 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0035.423 (0) Table wp_revslider_static_slides: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0035.431 (0) Table wp_revslider_static_slides: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0035.439 (0) Table wp_revslider_static_slides_bkp: Total expected rows (approximate): 0
+0035.442 (0) Table wp_revslider_static_slides_bkp: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0035.449 (0) Table wp_revslider_static_slides_bkp: finishing file (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_static_slides_bkp.table.gz - 0.3 KB)
+0035.453 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_options.table.gz (1/26): adding to final database dump
+0035.458 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_users.table.gz (2/26): adding to final database dump
+0035.459 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_usermeta.table.gz (3/26): adding to final database dump
+0035.462 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_commentmeta.table.gz (4/26): adding to final database dump
+0035.463 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_comments.table.gz (5/26): adding to final database dump
+0035.465 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_links.table.gz (6/26): adding to final database dump
+0035.466 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_postmeta.table.gz (7/26): adding to final database dump
+0035.494 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_posts.table.gz (8/26): adding to final database dump
+0035.503 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_term_relationships.table.gz (9/26): adding to final database dump
+0035.504 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_term_taxonomy.table.gz (10/26): adding to final database dump
+0035.506 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_termmeta.table.gz (11/26): adding to final database dump
+0035.507 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_terms.table.gz (12/26): adding to final database dump
+0035.508 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_imgoptimizations.table.gz (13/26): adding to final database dump
+0035.511 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_imgoptimizeractions.table.gz (14/26): adding to final database dump
+0035.513 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_css.table.gz (15/26): adding to final database dump
+0035.517 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_css_bkp.table.gz (16/26): adding to final database dump
+0035.520 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_layer_animations.table.gz (17/26): adding to final database dump
+0035.522 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_layer_animations_bkp.table.gz (18/26): adding to final database dump
+0035.524 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_navigations.table.gz (19/26): adding to final database dump
+0035.526 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_navigations_bkp.table.gz (20/26): adding to final database dump
+0035.528 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_sliders.table.gz (21/26): adding to final database dump
+0035.530 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_sliders_bkp.table.gz (22/26): adding to final database dump
+0035.532 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_slides.table.gz (23/26): adding to final database dump
+0035.534 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_slides_bkp.table.gz (24/26): adding to final database dump
+0035.536 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_static_slides.table.gz (25/26): adding to final database dump
+0035.537 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db-table-wp_revslider_static_slides_bkp.table.gz (26/26): adding to final database dump
+0035.679 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db.gz: finished writing out complete database file (72 KB)
+0035.694 (0) Total database tables backed up: 26 (backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db.gz, size: 82276, sha1: e3501348a6a517f7346c219acf3f1a3a1b8f88e1, sha256: ac3ba878afc95b4c5517c5bad7f3b24e7518e2e614d6c90e1b4516fe4661577f)
+0035.702 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0035.703 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0035.704 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0035.706 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-others.zip: others: This file has not yet been successfully uploaded: will queue
+0035.707 (0) backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db.gz: db: This file has not yet been successfully uploaded: will queue
+0035.708 (0) Saving backup history. Total backup size: 21.1 MB
+0035.711 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0035.716 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0035.717 (0) No remote despatch: user chose no remote backup service
+0035.718 (0) Recording as successfully uploaded: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-plugins.zip
+0035.720 (0) Recording as successfully uploaded: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-themes.zip
+0035.723 (0) Recording as successfully uploaded: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-uploads.zip
+0035.725 (0) Recording as successfully uploaded: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-others.zip
+0035.729 (0) Recording as successfully uploaded: backup_2020-07-19-0053_DATA_EG_CONSULTING_84bd2fed6e36-db.gz
+0035.734 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0035.735 (0) Number of backup sets in history: 1; groups (db): 1
+0035.736 (0) Examining (for databases) backup set with group_id=0, nonce=84bd2fed6e36, datestamp=1595120032 (Jul 19 2020 00:53:52)
+0035.737 (0) This backup set is the backup set just made, so will not be deleted.
+0035.738 (0) Number of backup sets in history: 1; groups (files): 1
+0035.739 (0) Examining (for files) backup set with nonce=84bd2fed6e36, datestamp=1595120032 (Jul 19 2020 00:53:52)
+0035.739 (0) This backup set is the backup set just made, so will not be deleted.
+0035.740 (0) This backup set is the backup set just made, so will not be deleted.
+0035.740 (0) This backup set is the backup set just made, so will not be deleted.
+0035.740 (0) This backup set is the backup set just made, so will not be deleted.
+0035.741 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.741 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0035.745 (0) Resume backup (84bd2fed6e36, 0): finish run
+0035.750 (0) Decremented the semaphore (fd) by 1
+0035.752 (0) Semaphore (fd) unlocked
+0035.753 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0035.757 (0) Fetching RSS news feed
+0037.225 (0) Fetched RSS news feed; result is a: SimplePie
+0037.244 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: webam...
+0039.359 (0) The backup apparently succeeded and is now complete
