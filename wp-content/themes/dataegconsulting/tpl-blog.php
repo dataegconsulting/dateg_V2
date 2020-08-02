@@ -1,8 +1,10 @@
 <?php /* Template Name: BLOG */ ?>
 <?php get_header(); ?>
+
 <!-- Page Banner -->
-<?php get_template_part( 'template-parts/pagebanner' ); ?>
+<?php get_template_part( 'template-parts/header-servicios' ); ?>
 <!-- Page Banner -->
+
 
 <!-- Blog Section -->
 <section class="commonSection blogPage">

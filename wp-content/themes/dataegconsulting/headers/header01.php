@@ -1,5 +1,5 @@
 <header class="header_01" id="header">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-lg-2 col-sm-3 col-md-3">
                 <div class="logo">
@@ -21,7 +21,7 @@
 
                 </div>
             </div>
-            <div class="col-lg-9 col-sm-8 col-md-8">
+            <div class="col-lg-8 col-sm-7 col-md-7">
                 <nav class="mainmenu text-right">
                     <?php
                         wp_nav_menu( [
@@ -40,7 +40,7 @@
                     ?> 
                 </nav>
             </div>
-            <div class="col-lg-1 col-sm-1 col-md-1">
+            <div class="col-lg-2 col-sm-2 col-md-2">
                 <div class="navigator text-right">
                     <a class="search searchToggler" href="javascript:void(0);"><i class="mei-magnifying-glass"></i></a>
                     <a href="javascript:void(0);" class="menu mobilemenu hidden-sm hidden-md hidden-lg hidden-xs"><i class="mei-menu"></i></a>

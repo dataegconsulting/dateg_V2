@@ -73,10 +73,5 @@
 })(jQuery);
 
 
-$(document).ready(function(){
-	
-	$('#portfolio-list').filterable();
-
-});
 
  

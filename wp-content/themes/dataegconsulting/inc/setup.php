@@ -12,6 +12,7 @@ if ( ! function_exists( 'dataeg_setup' ) ) :
         // Add featured image sizes
         add_image_size( 'servicios-large', 480, 1900, true ); // width, height, crop
         add_image_size( 'featured-small', 320, 147, true );
+        add_image_size( 'blog-featured', 370, 305 );
 
         add_theme_support('automatic-feed-links');// Add default posts and comments RSS feed links to <head>.
         add_theme_support('title-tag');    

@@ -172,7 +172,7 @@ ul li{
     font-weight: 400;
     color: #000;
     letter-spacing: 2px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin: 0 0 25px;
 }
 .red_color{

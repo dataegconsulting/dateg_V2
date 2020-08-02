@@ -5,18 +5,7 @@
 get_header(); ?>
 
 <!-- Page Banner -->
-<section class="pageBanner">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="banner_content text-center">
-                    <h4><a href="#">home</a> - contact</h4>
-                    <h2>Contact us</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php get_template_part( 'template-parts/header-servicios' ); ?>
 <!-- Page Banner -->
 
 <!-- Our Client 2 Section -->
@@ -77,8 +66,16 @@ get_header(); ?>
 </section>
 <!-- Contact Section -->
 
-
-
- 
+<!-- Contact Map Section -->
+<section class="gmapsection">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 noPadding">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7962.634761293165!2d8.743285471076929!3d3.7408619283223024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1b208bcfcf2fd1d6!2sDATA%20EG!5e0!3m2!1ses!2s!4v1596059689002!5m2!1ses!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Map Section -->
 
 <?php get_footer(); ?>

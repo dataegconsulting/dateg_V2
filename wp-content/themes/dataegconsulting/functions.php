@@ -58,16 +58,7 @@
     }
 
 
-    /* ************************************************************************ */
-    //  Include Favicon
-
-    function my_favicon_link() {
-
-        echo '<link rel="shortcut icon" type="image/png" href="img/favicon.png" />' . "\n";
-    }
-    add_action( 'wp_head', 'my_favicon_link' );
-
-
+    
     /* ************************************************************************ */
     //  Limitar la longitud de la publicación usando el número de palabras
 

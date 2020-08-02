@@ -21,19 +21,13 @@
                                     <div class="latestBlogItem">
                                     
                                         <div class="lbi_thumb">
-                                        <a href="<?php the_permalink();?>">
-                                            <?php the_post_thumbnail(
-                                                array(350, 250),
-                                                array(
-                                                'class' => '',
-                                                )
-                                            );
-                                            ?>
+                                            <a href="<?php the_permalink();?>">
+                                                <?php the_post_thumbnail('blog-featured');?>
                                             </a>
                                         </div>
                                         <div class="lbi_details">
                                             <a href="#" class="lbid_date"><?php echo get_the_date('j F'); ?></a>
-                                            <h2><a href="<?php the_permalink();?>"><?php echo wp_trim_words( get_the_title(), 5 ); ?></a></h2>
+                                            <h2><a href="<?php the_permalink();?>"><?php echo wp_trim_words( get_the_title(), 10 ); ?></a></h2>
                                             <a class="learnM" href="<?php the_permalink();?>">Leer más</a>
                                         </div>
                                     </div>

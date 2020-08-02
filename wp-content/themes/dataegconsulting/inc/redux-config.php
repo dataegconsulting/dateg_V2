@@ -358,6 +358,18 @@
                     'fields'    => array(
                         
                         array(
+                            'title'     => __( 'Sub Heading', 'dataeg' ), 
+                            'id'        => 'subheading',
+                            'type'      => 'text',
+                        ),
+
+                        array(
+                            'title'     => __( 'Descripción', 'dataeg' ), 
+                            'id'        => 'description',
+                            'type'      => 'text',
+                        ),
+
+                        array(
                             'id' => 'logo_web_header',
                             'type' => 'media',
                             'title' => esc_html__('Subir Imagen de Header', 'dataeg'),
@@ -381,6 +393,18 @@
                     'icon'          => 'el el-website',
                     'fields'    => array(
                         
+                        array(
+                            'title'     => __( 'Sub Heading', 'dataeg' ), 
+                            'id'        => 'subheading_wordpress',
+                            'type'      => 'text',
+                        ),
+
+                        array(
+                            'title'     => __( 'Descripción', 'dataeg' ), 
+                            'id'        => 'description_wordpress',
+                            'type'      => 'text',
+                        ),
+
                         array(
                             'id' => 'logo_wordpress_header',
                             'type' => 'media',
@@ -407,6 +431,18 @@
                     'fields'    => array(
                         
                         array(
+                            'title'     => __( 'Sub Heading', 'dataeg' ), 
+                            'id'        => 'subheading_tienda',
+                            'type'      => 'text',
+                        ),
+
+                        array(
+                            'title'     => __( 'Descripción', 'dataeg' ), 
+                            'id'        => 'description_tienda',
+                            'type'      => 'text',
+                        ),
+
+                        array(
                             'id' => 'logo_tienda_header',
                             'type' => 'media',
                             'title' => esc_html__('Subir Imagen de Header', 'dataeg'),
@@ -431,6 +467,18 @@
                     'fields'    => array(
                         
                         array(
+                            'title'     => __( 'Sub Heading', 'dataeg' ), 
+                            'id'        => 'subheading_marketing',
+                            'type'      => 'text',
+                        ),
+
+                        array(
+                            'title'     => __( 'Descripción', 'dataeg' ), 
+                            'id'        => 'description_marketing',
+                            'type'      => 'text',
+                        ),
+
+                        array(
                             'id' => 'logo_marketing_header',
                             'type' => 'media',
                             'title' => esc_html__('Subir Imagen de Header', 'dataeg'),
@@ -447,701 +495,150 @@
                     ),
                 );
 
-
-				//General Settings
-				$this->sections[] = array(
-                    'title'         => __( 'General', 'ta-music' ),
-                    'heading'       => __( 'General Settings', 'ta-music' ),
-                    'desc'          => __( 'Here you can upload site logo and favicon, and choose your favourite color scheme.', 'ta-music' ),
-                    'icon'          => 'el el-cog',
-                    'fields'        => array(
-					   array(
-                            'title'     => __( 'Favicon', 'ta-music' ),
-                            'subtitle'  => __( 'Use this field to upload your custom favicon.', 'ta-music' ),
-                            'id'        => 'custom_favicon',
-                            'default'   => '',
-                            'type'      => 'media',
-                            'url'       => true,
-                        ),
-
-						array(
-                            'title'     => __( 'Logo', 'ta-music' ),
-                            'subtitle'  => __( 'Use this field to upload your custom logo. Recommended dimensions are 160x55 pixels', 'ta-music' ),
-                            'id'        => 'custom_logo',
-                            'default'   => '',
-                            'type'      => 'media',
-                            'url'       => true,
-                       ),
-
-					   array(
-							'title'     => __( 'Theme Color Schemes', 'ta-music' ), 
-							'subtitle'  => __( 'Select one of the color schemes you like.', 'ta-music' ),
-							'id'        => 'css_style',
-							'type'      => 'select',
-							'default'   => 'red.css',
-							'options'   => $styles,
-						),
-                   ),
-				);
-
-				//Top Bar Settings
+                // Settings Acerce de  
                 $this->sections[] = array(
-					'title'         => __( 'Top Bar', 'ta-music' ),
-                    'heading'       => __( 'Top Bar Settings', 'ta-music' ),
-                    'icon'          => 'el el-chevron-up',
-                    'fields'    => array(
-						array(
-                            'title'     => __( 'Top Bar Section', 'ta-music' ),
-                            'subtitle'  => __( 'Select to enable/disable display Top Bar section.', 'ta-music' ),
-                            'id'        => 'disable_top_bar',
-                            'default'   => true,
-                            'on'        => __( 'Enable', 'ta-music' ),
-                            'off'       => __( 'Disable', 'ta-music' ),
-                            'type'      => 'switch',
-                       ),
-
-					   array(
-                            'title'     => __( 'Tagline Module', 'ta-music' ),
-                            'subtitle'  => __( 'Select to enable/disable display Tagline module.', 'ta-music' ),
-                            'id'        => 'disable_tagline',
-                            'default'   => true,
-                            'on'        => __( 'Enable', 'ta-music' ),
-                            'off'       => __( 'Disable', 'ta-music' ),
-                            'type'      => 'switch',
-                       ),
-
-					   array(
-                            'title'     => __( 'Login & Register Module', 'ta-music' ),
-                            'subtitle'  => __( 'Select to enable/disable display Login & Register module.', 'ta-music' ),
-                            'id'        => 'disable_login_register',
-                            'default'   => true,
-                            'on'        => __( 'Enable', 'ta-music' ),
-                            'off'       => __( 'Disable', 'ta-music' ),
-                            'type'      => 'switch',
-                       ),
-
-					   array(
-                            'title'     => __( 'Social Module', 'ta-music' ),
-                            'subtitle'  => __( 'Select to enable/disable display Social module.', 'ta-music' ),
-                            'id'        => 'disable_social',
-                            'default'   => true,
-                            'on'        => __( 'Enable', 'ta-music' ),
-                            'off'       => __( 'Disable', 'ta-music' ),
-                            'type'      => 'switch',
-                       ),
-
-					   array( 
-                            'title'     => __( 'Facebook Link', 'ta-music' ),
-                            'subtitle'  => __( 'You Facebook page link.', 'ta-music' ),
-                            'id'        => 'facebook_link',
-                            'default'   => 'http://themeart.co/',
-                            'type'      => 'text',
-                        ),
-
-						array( 
-                            'title'     => __( 'Twitter Link', 'ta-music' ),
-                            'subtitle'  => __( 'You Twitter page link.', 'ta-music' ),
-                            'id'        => 'twitter_link',
-                            'default'   => 'http://themeart.co/',
-                            'type'      => 'text',
-                        ),
-
-						array( 
-                            'title'     => __( 'Google Plus Link', 'ta-music' ),
-                            'subtitle'  => __( 'You Google Plus page link.', 'ta-music' ),
-                            'id'        => 'google_plus_link',
-                            'default'   => 'http://themeart.co/',
-                            'type'      => 'text',
-                        ),
-
-						array( 
-                            'title'     => __( 'YouTube Link', 'ta-music' ),
-                            'subtitle'  => __( 'You YouTube page link.', 'ta-music' ),
-                            'id'        => 'youtube_link',
-                            'default'   => 'http://themeart.co/',
-                            'type'      => 'text',
-                        ),
-
-					   array(
-                            'title'     => __( 'Search Module', 'ta-music' ),
-                            'subtitle'  => __( 'Select to enable/disable display Search module.', 'ta-music' ),
-                            'id'        => 'disable_search',
-                            'default'   => true,
-                            'on'        => __( 'Enable', 'ta-music' ),
-                            'off'       => __( 'Disable', 'ta-music' ),
-                            'type'      => 'switch',
-                       ),
-					)
-				);
-
-				// Homepage Settings
-                $this->sections[] = array(
-					'title'         => __( 'Homepage', 'ta-music' ),
-                    'heading'       => __( 'Homepage Setting', 'ta-music' ),
-                    'desc'          => __( 'Here you can set Header Slider and Features sections.', 'ta-music' ),
+                    'title'         => __( 'Settings Acerce de DATA EG  ', 'dataeg' ),
+                    'heading'       => __( 'Settings Acerce de DATA EG   ', 'dataeg' ), 
                     'icon'          => 'el el-website',
                     'fields'    => array(
+                        
                         array(
-                            'title'     => __( 'Header Slider Module', 'ta-music' ),
-                            'subtitle'  => __( 'Select to enable/disable display Header Slider module.', 'ta-music' ),
-                            'id'        => 'disable_slider',
-                            'default'   => true,
-                            'on'        => __( 'Enable', 'ta-music' ),
-                            'off'       => __( 'Disable', 'ta-music' ),
-                            'type'      => 'switch',
-						),
-
-						array( 
-                            'title'     => __( 'Background Image', 'ta-music' ),
-                            'subtitle'  => __( 'Use this field to upload your background image for Header Slider module.', 'ta-music' ),
-                            'id'        => 'slider_bg',
-                            'default'   => '',
-                            'type'      => 'media',
-                            'url'       => true,
-                        ),
-
-						array(
-							'title'       => __( 'Header Slider Box', 'ta-music' ),
-							'subtitle'    => __( 'Unlimited Header Slider Box with drag and drop sortings.', 'ta-music' ),
-							'desc'        => __( 'You can get Font Awesome Icon <a href="http://fontawesome.io/icons/" target="_blank">here</a>. e.g. folder-open.', 'ta-music' ),
-							'id'          => 'header_slider',
-							'type'        => 'slides',
-							'show'        => array(
-								'title'        => true,
-								'description'  => true,
-								'image_upload' => false,
-								'url'          => true,
-								'btn_text'     => true,
-							),
-							'placeholder' => array(
-								'title'        => __( 'This is a title.', 'ta-music' ),
-								'description'  => __( 'Description here.', 'ta-music' ),
-								'url'          => __( 'Link for button.', 'ta-music' ),
-								'btn_text'     => __( 'Text for button.', 'ta-music' ),
-							),
-						),
-
-						array(
-                            'title'     => __( 'Features Module', 'ta-music' ),
-                            'subtitle'  => __( 'Select to enable/disable display Features module.', 'ta-music' ),
-                            'id'        => 'disable_features',
-                            'default'   => true,
-                            'on'        => __( 'Enable', 'ta-music' ),
-                            'off'       => __( 'Disable', 'ta-music' ),
-                            'type'      => 'switch',
-						),
-
-						array( 
-                            'title'     => __( 'Features Section Title', 'ta-music' ),
-                            'subtitle'  => __( 'Add your title for Features section.', 'ta-music' ),
-                            'id'        => 'features_title',
-                            'default'   => 'Welcome to <span>TA Music</span> WordPress Theme',
+                            'title'     => __( 'Sub Heading', 'dataeg' ), 
+                            'id'        => 'subheading_acerca',
                             'type'      => 'text',
                         ),
 
-						array( 
-                            'title'     => __( 'Features Section Description', 'ta-music' ),
-                            'subtitle'  => __( 'Add your description for Features section.', 'ta-music' ),
-                            'id'        => 'features_description',
-                            'default'   => 'TA Music is a powerful and responsive <span>Music, Band & DJ</span> WordPress theme with pretty much advanced features like display Artists, Albums, Photo Galleries, Video Galleries and Events.',
-                            'type'      => 'editor',
+                        array(
+                            'title'     => __( 'Descripción', 'dataeg' ), 
+                            'id'        => 'description_acerca',
+                            'type'      => 'text',
                         ),
 
-						array(
-							'title'       => __( 'Features Box', 'ta-music' ),
-							'subtitle'    => __( 'Unlimited Features Box with drag and drop sortings.', 'ta-music' ),
-							'desc'        => __( 'You can get Font Awesome Icon <a href="http://fontawesome.io/icons/" target="_blank">here</a>. e.g. fa-folder-open.', 'ta-music' ),
-							'id'          => 'features_slider',
-							'type'        => 'slides',
-							'show'        => array(
-								'facode'       => true,
-								'title'        => true,
-								'description'  => true,
-								'image_upload' => false,
-								'url'          => true,
-							),
-							'placeholder' => array(
-								'facode'       => __( 'Font Awesome Icon here. e.g. fa-folder-open.', 'ta-music' ),
-								'title'        => __( 'This is a title.', 'ta-music' ),
-								'description'  => __( 'Description here.', 'ta-music' ),
-								'url'          => __( 'Link for title.', 'ta-music' ),
-							),
-						),
-					),
-                );
+                        array(
+                            'id' => 'logo_acerca_header',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Header', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
+                        ),
 
-				// Events Settings
-                $this->sections[] = array(
-                    'title'    => __( 'Event Settings', 'ta-music' ),
-                    'heading'  => __( 'Events Listing Settings', 'ta-music' ),
-                    'desc'     => __( 'Here you can set layouts for Events Listing page.', 'ta-music' ),
-                    'icon'     => 'el el-calendar',
-                    'fields'   => array(
-						array( 
-                            'title'     => __( 'Events Listing Page Title', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own title for Events Listing page.', 'ta-music' ),
-                            'id'        => 'events_listing_title',
-                            'default'   => 'Events',
-                            'type'      => 'text',
-						),
-
-						array(
-                            'title'     => __( 'Events Listing Page Tagline', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own tagline for Events Listing page.', 'ta-music' ),
-                            'id'        => 'events_listing_tagline',
-                            'default'   => 'Add your own tagline here.',
-                            'type'      => 'text',
-						),
-
-						array(
-                            'title'     => __( 'Events Listing Style', 'ta-music' ),
-                            'subtitle'  => __( 'Select the default Events listing style.', 'ta-music' ),
-                            'id'        => 'default_events_style',
-                            'default'   => true,
-                            'on'        => __( 'List', 'ta-music' ),
-                            'off'       => __( 'Grid', 'ta-music' ),
-                            'type'      => 'switch',
-						),
+                        array(
+                            'id' => 'logo_acerca_page',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Page', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
+                        ),
+                        
                     ),
                 );
 
-				// Albums Settings
+                // Settings Blog Noticias  
                 $this->sections[] = array(
-                    'title'    => __( 'Albums Settings', 'ta-music' ),
-                    'heading'  => __( 'Albums Listing Settings', 'ta-music' ),
-                    'desc'     => __( 'Here you can set layouts for Albums Listing page.', 'ta-music' ),
-                    'icon'     => 'el el-headphones',
-                    'fields'   => array(
-						array( 
-                            'title'     => __( 'Albums Listing Page Title', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own title for Albums Listing page.', 'ta-music' ),
-                            'id'        => 'albums_listing_title',
-                            'default'   => 'Albums',
-                            'type'      => 'text',
-						),
-
-						array(
-                            'title'     => __( 'Albums Listing Page Tagline', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own tagline for Albums Listing page.', 'ta-music' ),
-                            'id'        => 'albums_listing_tagline',
-                            'default'   => 'Add your own tagline here.',
-                            'type'      => 'text',
-						),
-
-						array(
-                            'title'     => __( 'Albums Listing Page Description', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own description for Albums Listing page.', 'ta-music' ),
-                            'id'        => 'albums_listing_desc',
-                            'default'   => 'Add your own description here.',
-                            'type'      => 'editor',
-						),
-
-						array( 
-                            'title'     => __( 'Display Filter', 'ta-meghna' ),
-                            'subtitle'  => __( 'Select to enable/disable the listing filter.', 'ta-music' ),
-                            'id'        => 'albums_filter_switch',
-                            'default'   => true,
-                            'on'        => __( 'Enable', 'ta-music' ),
-                            'off'       => __( 'Disable', 'ta-music' ),
-                            'type'      => 'switch',
-                        ),
-                    ),
-                );
-
-				// Videos Settings
-                $this->sections[] = array(
-                    'title'    => __( 'Videos Settings', 'ta-music' ),
-                    'heading'  => __( 'Videos Listing Settings', 'ta-music' ),
-                    'desc'     => __( 'Here you can set layouts for Videos Listing page.', 'ta-music' ),
-                    'icon'     => 'el el-facetime-video',
-                    'fields'   => array(
-						array( 
-                            'title'     => __( 'Videos Listing Page Title', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own title for Videos Listing page.', 'ta-music' ),
-                            'id'        => 'videos_listing_title',
-                            'default'   => 'Videos',
-                            'type'      => 'text',
-						),
-
-						array(
-                            'title'     => __( 'Videos Listing Page Tagline', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own tagline for Videos Listing page.', 'ta-music' ),
-                            'id'        => 'videos_listing_tagline',
-                            'default'   => 'Add your own tagline here.',
-                            'type'      => 'text',
-						),
-
-						array(
-                            'title'     => __( 'Videos Listing Page Description', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own description for Videos Listing page.', 'ta-music' ),
-                            'id'        => 'videos_listing_desc',
-                            'default'   => 'Add your own description here.',
-                            'type'      => 'editor',
-						),
-
-						array( 
-                            'title'     => __( 'Display Filter', 'ta-meghna' ),
-                            'subtitle'  => __( 'Select to enable/disable the listing filter.', 'ta-music' ),
-                            'id'        => 'videos_filter_switch',
-                            'default'   => true,
-                            'on'        => __( 'Enable', 'ta-music' ),
-                            'off'       => __( 'Disable', 'ta-music' ),
-                            'type'      => 'switch',
-                        ),
-                    ),
-                );
-
-				// Galleries Settings
-                $this->sections[] = array(
-                    'title'    => __( 'Galleries Settings', 'ta-music' ),
-                    'heading'  => __( 'Galleries Listing Settings', 'ta-music' ),
-                    'desc'     => __( 'Here you can set layouts for Galleries Listing page.', 'ta-music' ),
-                    'icon'     => 'el el-camera',
-                    'fields'   => array(
-						array( 
-                            'title'     => __( 'Galleries Listing Page Title', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own title for Galleries Listing page.', 'ta-music' ),
-                            'id'        => 'galleries_listing_title',
-                            'default'   => 'Galleries',
-                            'type'      => 'text',
-						),
-
-						array(
-                            'title'     => __( 'Galleries Listing Page Tagline', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own tagline for Galleries Listing page.', 'ta-music' ),
-                            'id'        => 'galleries_listing_tagline',
-                            'default'   => 'Add your own tagline here.',
-                            'type'      => 'text',
-						),
-
-						array(
-                            'title'     => __( 'Galleries Listing Page Description', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own description for Galleries Listing page.', 'ta-music' ),
-                            'id'        => 'galleries_listing_desc',
-                            'default'   => 'Add your own description here.',
-                            'type'      => 'editor',
-						),
-
-						array( 
-                            'title'     => __( 'Display Filter', 'ta-meghna' ),
-                            'subtitle'  => __( 'Select to enable/disable the listing filter.', 'ta-music' ),
-                            'id'        => 'galleries_filter_switch',
-                            'default'   => true,
-                            'on'        => __( 'Enable', 'ta-music' ),
-                            'off'       => __( 'Disable', 'ta-music' ),
-                            'type'      => 'switch',
-                        ),
-                    ),
-                );
-
-				// Artists Settings
-                $this->sections[] = array(
-                    'title'    => __( 'Artists Settings', 'ta-music' ),
-                    'heading'  => __( 'Artists Listing Settings', 'ta-music' ),
-                    'desc'     => __( 'Here you can set layouts for Artists Listing page.', 'ta-music' ),
-                    'icon'     => 'el el-user',
-                    'fields'   => array(
-						array(
-							'title'     => __( 'Artists Listing Page', 'ta-music' ), 
-							'subtitle'  => __( 'Select a page for artists listing..', 'ta-music' ),
-							'id'        => 'artists_page',
-							'type'      => 'select',
-							'default'   => '',
-							'data'      => 'pages',
-						),
-
-						array( 
-                            'title'     => __( 'Artists Listing Page Title', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own title for Artists Listing page.', 'ta-music' ),
-                            'id'        => 'artists_listing_title',
-                            'default'   => 'Artists',
-                            'type'      => 'text',
-						),
-
-						array(
-                            'title'     => __( 'Artists Listing Page Tagline', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own tagline for Artists Listing page.', 'ta-music' ),
-                            'id'        => 'artists_listing_tagline',
-                            'default'   => 'Add your own tagline here.',
-                            'type'      => 'text',
-						),
-
-						array(
-                            'title'     => __( 'Artists Listing Page Description', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own description for Artists Listing page.', 'ta-music' ),
-                            'id'        => 'artists_listing_desc',
-                            'default'   => 'Add your own description here.',
-                            'type'      => 'editor',
-						),
-
-						array( 
-                            'title'     => __( 'Display Filter', 'ta-meghna' ),
-                            'subtitle'  => __( 'Select to enable/disable the listing filter.', 'ta-music' ),
-                            'id'        => 'artists_filter_switch',
-                            'default'   => true,
-                            'on'        => __( 'Enable', 'ta-music' ),
-                            'off'       => __( 'Disable', 'ta-music' ),
-                            'type'      => 'switch',
-                        ),
-                    ),
-                );
-
-				// Blog Settings
-                $this->sections[] = array(
-                    'title'    => __( 'Blog Settings', 'ta-music' ),
-                    'heading'  => __( 'Blog Listing Settings', 'ta-music' ),
-                    'desc'     => __( 'Here you can set layouts for Blog Listing page.', 'ta-music' ),
-                    'icon'     => 'el el-pencil',
-                    'fields'   => array(
-						array( 
-                            'title'     => __( 'Blog Listing Page Title', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own title for Blog Listing page.', 'ta-music' ),
-                            'id'        => 'blog_listing_title',
-                            'default'   => 'Blog',
-                            'type'      => 'text',
-						),
-
-						array(
-                            'title'     => __( 'Blog Listing Page Tagline', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own tagline for Blog Listing page.', 'ta-music' ),
-                            'id'        => 'blog_listing_tagline',
-                            'default'   => 'Add your own tagline here.',
-                            'type'      => 'text',
-						),
-
-						array(
-                            'title'     => __( 'Blog Listing Style', 'ta-music' ),
-                            'subtitle'  => __( 'Select the default Blog listing style.', 'ta-music' ),
-                            'id'        => 'default_blog_style',
-                            'default'   => true,
-                            'on'        => __( 'Grid', 'ta-music' ),
-                            'off'       => __( 'List', 'ta-music' ),
-                            'type'      => 'switch',
-						),
-                    ),
-                );
-
-				//Footer Settings
-                $this->sections[] = array(
-					'title'     => __( 'Footer Settings', 'ta-music' ),
-					'heading'   => __( 'Footer Settings', 'ta-music' ),
-                    'desc'      => __( 'Here you can set site copyright information.', 'ta-music' ),
-                    'icon'      => 'el el-download-alt',
+                    'title'         => __( 'Settings Blog Noticias    ', 'dataeg' ),
+                    'heading'       => __( 'Settings Blog Noticias    ', 'dataeg' ), 
+                    'icon'          => 'el el-website',
                     'fields'    => array(
+                        
                         array(
-                            'title'     => __( 'Custom Copyright', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own custom text/html for copyright region. You are <strong style="color:red;">not allowed</strong> to Remove Back Link/Credit unless you <a href="http://themeart.co/support-themeart/" target="_blank">donated us</a>.', 'ta-music' ),
-                            'id'        => 'custom_copyright',
-                            'default'   => 'Copyright &copy; 2015 - <a href="http://themeart.co/free-theme/ta-music/" title="TA Music Free WordPress Theme" target="_blank">TA Music</a>. Design by <a href="https://twitter.com/BrentChesny" target="_blank">Brent Chesny</a> and Developed by <a href="http://themeart.co/" title="Downlod Free Premium WordPress Themes" target="_blank">ThemeArt</a>.',
-                            'type'      => 'editor',
-                       ),
-                   )
-               );
-
-				// Contact Us Settings
-                $this->sections[] = array(
-                    'title'    => __( 'Contact Us', 'ta-music' ),
-                    'heading'  => __( 'Contact Us Setting', 'ta-music' ),
-                    'desc'     => __( 'Here you can set contact information.', 'ta-music' ),
-                    'icon'     => 'el el-envelope',
-                    'fields'   => array(
-						array(
-                            'title'     => __( 'Contact Us Page Tagline', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own tagline for Contact Us page.', 'ta-music' ),
-                            'id'        => 'contact_tagline',
-                            'default'   => "Let's Keep in Touch",
-                            'type'      => 'text',
-						),
-
-						array( 
-                            'title'     => __( 'Set Your Address', 'ta-music' ),
-                            'subtitle'  => __( 'Set your address here.', 'ta-music' ),
-                            'id'        => 'contact_address',
-                            'default'   => '1600 Amphitheatre Parkway Mountain View, CA 94043',
+                            'title'     => __( 'Sub Heading', 'dataeg' ), 
+                            'id'        => 'subheading_blog',
                             'type'      => 'text',
                         ),
 
-						array( 
-                            'title'     => __( 'Set Your Phone Number', 'ta-music' ),
-                            'subtitle'  => __( 'Set your phone number here.', 'ta-music' ),
-                            'id'        => 'contact_phone',
-                            'default'   => '+01 234 567 890',
+                        array(
+                            'title'     => __( 'Descripción', 'dataeg' ), 
+                            'id'        => 'description_blog',
                             'type'      => 'text',
                         ),
 
-						array( 
-                            'title'     => __( 'Contact Email', 'ta-pluton' ),
-                            'subtitle'  => __( 'Set your email address. This is where the contact form will send a message to.', 'ta-music' ),
-                            'id'        => 'contact_email',
-                            'default'   => 'yourname@yourdomain.com',
-							'validate'  => 'email',
-							'msg'       => __( 'Not a valid email address.', 'ta-music' ),
-                            'type'      => 'text',
+                        array(
+                            'id' => 'logo_blog_header',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Header', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
                         ),
 
-						array(
-                            'title'     => __( 'Dislplay Contact Email', 'ta-music' ),
-                            'subtitle'  => __( 'Select to enable/disable display contact email.', 'ta-music' ),
-                            'id'        => 'disable_contact_email',
-                            'default'   => true,
-                            'on'        => __( 'Enable', 'ta-music' ),
-                            'off'       => __( 'Disable', 'ta-music' ),
-                            'type'      => 'switch',
-						),
-
-						array(
-                            'title'     => __( 'Google Map Embed Code', 'ta-music' ),
-                            'subtitle'  => __( 'Please refer to <a href="http://themeart.co/document/ta-music-theme-documentation/#google-map-settings" target="_blank">theme documentation</a> for how to Embed a Google Map with iFrame.', 'ta-music' ),
-                            'id'        => 'map_code',
-                            'default'   => '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1584.2679903399307!2d-122.09496935581758!3d37.42444119584552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba1a7f2db7e7%3A0x59c3e570fe8e0c73!2sGoogle+West+Campus+6%2C+2350+Bayshore+Pkwy%2C+Mountain+View%2C+CA+94043%2C+USA!5e0!3m2!1sen!2s!4v1422891258666" width="600" height="450" frameborder="0" style="border:0"></iframe>',
-                            'type'      => 'ace_editor',
-                            'mode'      => 'html',
-                            'theme'     => 'monokai',
-                       ),
+                        array(
+                            'id' => 'logo_blog_page',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Page', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
+                        ),
+                        
                     ),
                 );
 
-				//404 Page Settings
+                // Settings Contacto  
                 $this->sections[] = array(
-					'title'     => __( '404 Page', 'ta-music' ),
-					'heading'   => __( '404 Page Settings', 'ta-music' ),
-                    'desc'      => __( 'Here you can set information for 404 page.', 'ta-music' ),
-                    'icon'      => 'el el-icon-error',
+                    'title'         => __( 'Settings Contacto    ', 'dataeg' ),
+                    'heading'       => __( 'Settings Contacto    ', 'dataeg' ), 
+                    'icon'          => 'el el-website',
                     'fields'    => array(
-						array( 
-                            'title'     => __( '404 Page Title', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own title for 404 page.', 'ta-music' ),
-                            'id'        => '404_title',
-                            'default'   => '404 Error',
-                            'type'      => 'text',
-						),
-
-						array(
-                            'title'     => __( '404 Page Tagline', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own tagline for 404 page.', 'ta-music' ),
-                            'id'        => '404_tagline',
-                            'default'   => 'Add your own tagline here.',
-                            'type'      => 'text',
-						),
-
-						array(
-                            'title'     => __( 'Notice Title', 'ta-music' ),
-                            'subtitle'  => __( 'Add your own title for error notice.', 'ta-music' ),
-                            'id'        => '404_notice_title',
-                            'default'   => "Whoops! Something's Gone Wrong.",
-                            'type'      => 'text',
-                       ),
+                        
                         array(
-                            'title'     => __( 'Notice Information', 'ta-music' ),
-                            'subtitle'  => __( 'Add some information for error notice.', 'ta-music' ),
-                            'id'        => '404_notice_info',
-                            'default'   => 'Sorry, the page you have requested has either been moved, or does not exist. Return to <a href="javascript:history.go(-1)">Previous Page</a>.',
-                            'type'      => 'editor',
-                       ),
-                   )
-               );
-
-				//Social Settings
-                $this->sections[] = array(
-					'title'         => __( 'Social Profiles', 'ta-music' ),
-                    'heading'       => __( 'Social Profiles Settings', 'ta-music' ),
-                    'desc'          => __( 'Here you can set your social profiles.', 'ta-music' ),
-                    'icon'          => 'el el-icon-group',
-                    'fields'        => array(
-                         array(
-                            'title'     => __( 'Social Icons', 'ta-music' ),
-                            'subtitle'  => __( 'Arrange your social icons. Add complete URLs to your social profiles.', 'ta-music' ),
-                            'id'        => 'social_icons',
-                            'type'      => 'sortable',
-                            'options'   => $social_options,
-                       ),
-                   )
-               );
-
-			   // Twitter API Settings
-                $this->sections[] = array(
-					'title'         => __( 'Twitter API', 'ta-music' ),
-                    'heading'       => __( 'Twitter API Settings', 'ta-music' ),
-                    'desc'          => __( 'You can refer to the <a href="http://themeart.co/document/ta-music-theme-documentation/#twitter-api-settings" target="_blank">theme documentation</a> to get Twitter API Consumer and Secret Keys.', 'ta-music' ),
-                    'icon'          => 'el el-twitter',
-                    'fields'    => array(
-						array(
-                            'title'     => __( 'Twitter Consumer Key', 'ta-music' ),
-                            'id'        => 'twitter_consumer_key',
-                            'default'   => '',
+                            'title'     => __( 'Sub Heading', 'dataeg' ), 
+                            'id'        => 'subheading_blog',
                             'type'      => 'text',
                         ),
 
-						array(
-                            'title'     => __( 'Twitter Consumer Secret', 'ta-music' ),
-                            'id'        => 'twitter_consumer_secret',
-                            'default'   => '',
+                        array(
+                            'title'     => __( 'Descripción', 'dataeg' ), 
+                            'id'        => 'description_blog',
                             'type'      => 'text',
                         ),
 
-						array(
-                            'title'     => __( 'Twitter Access Token', 'ta-music' ),
-                            'id'        => 'twitter_access_token',
-                            'default'   => '',
-                            'type'      => 'text',
+                        array(
+                            'id' => 'logo_contacto_header',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Header', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
                         ),
 
-						array(
-                            'title'     => __( 'Twitter Access Token Secret', 'ta-music' ),
-                            'id'        => 'twitter_access_token_secret',
-                            'default'   => '',
-                            'type'      => 'text',
+                        array(
+                            'id' => 'logo_contacto_page',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Page', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
                         ),
-					),
-                );
-
-			   //Custom CSS
-                $this->sections[] = array(
-                    'icon'      => 'el el-css',
-                    'title'     => __( 'Custom CSS', 'ta-music' ),
-                    'fields'    => array(
-                         array(
-                            'title'     => __( 'Custom CSS', 'ta-music' ),
-                            'subtitle'  => __( 'Insert any custom CSS.', 'ta-music' ),
-                            'id'        => 'custom_css',
-                            'type'      => 'ace_editor',
-                            'mode'      => 'css',
-                            'theme'     => 'monokai',
-                        ),
+                        
                     ),
                 );
 
+                // Settings Portofolio  
                 $this->sections[] = array(
-                    'title'  => __( 'Import / Export', 'ta-music' ),
-                    'desc'   => __( 'Import and Export your theme settings from file, text or URL.', 'ta-music' ),
-                    'icon'   => 'el el-refresh',
-                    'fields' => array(
+                    'title'         => __( 'Settings Portofolio    ', 'dataeg' ),
+                    'heading'       => __( 'Settings Portofolio    ', 'dataeg' ), 
+                    'icon'          => 'el el-website',
+                    'fields'    => array(
+                        
                         array(
-                            'id'         => 'opt-import-export',
-                            'type'       => 'import_export',
-                            'full_width' => false,
-						),
-					),
-				);
+                            'title'     => __( 'Sub Heading', 'dataeg' ), 
+                            'id'        => 'subheading_blog',
+                            'type'      => 'text',
+                        ),
 
-                $this->sections[] = array(
-                    'type' => 'divide',
-				);
-
-                $this->sections[] = array(
-                    'icon'   => 'el el-info-circle',
-                    'title'  => __( 'Theme Information', 'ta-music' ),
-                    'desc'   => __( '<p class="description">About TA Music</p>', 'ta-music' ),
-                    'fields' => array(
                         array(
-                            'id'      => 'opt-raw-info',
-                            'type'    => 'raw',
-                            'content' => $item_info,
-                       )
-                   ),
-               );
+                            'title'     => __( 'Descripción', 'dataeg' ), 
+                            'id'        => 'description_blog',
+                            'type'      => 'text',
+                        ),
+
+                        array(
+                            'id' => 'logo_portofolio_header',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Header', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
+                        ),
+
+                        array(
+                            'id' => 'logo_portofolio_page',
+                            'type' => 'media',
+                            'title' => esc_html__('Subir Imagen de Page', 'dataeg'),
+                            'subtitle' => esc_html__('Upload a .png or .gif image that will be your logo.', 'dataeg'),
+                        ),
+                        
+                    ),
+                );
             }
-
             /**
              * All the possible arguments for Redux.
              * For full documentation on arguments, please refer to: https://github.com/ReduxFramework/ReduxFramework/wiki/Arguments

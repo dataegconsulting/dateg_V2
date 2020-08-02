@@ -21,7 +21,7 @@ function crear_post_type_sliders() {
 		'not_found'          => __( 'No encontrado!','dataeg' ),
 		'not_found_in_trash' => __( 'No encontrado en la papelera','dataeg' ),
 		'parent_item_colon'  => '',
-		'menu_name'          => __('REVSLIDER','dataeg')
+		'menu_name'          => __('SLIDER DATA EG','dataeg')
 	);
 	$args = array(
 		'labels'      		=> $labels,
@@ -58,7 +58,7 @@ function dataeg_campos_sliders() {
 	 */
 	$dataeg_campos_sliders = new_cmb2_box( array(
 		'id'           => $prefix . 'sliders',
-		'title'        => esc_html__('REVSLIDER FORMULARIOS', 'cmb2' ),
+		'title'        => esc_html__('SLIDER DATA EG', 'cmb2' ),
 		'object_types' => array( 'sliders' ), // Post type
 		'context'      => 'normal',
 		'priority'     => 'high',
@@ -77,6 +77,18 @@ function dataeg_campos_sliders() {
   		'id'      => $prefix . 'desc_slider',
   		'type'        => 'textarea_small',
   	) );
+
+	  $dataeg_campos_sliders->add_field( array(
+		'name'        => esc_html__( 'Titulo Enlace', 'cmb2' ),
+		'id'      => $prefix . 'titulo_enlace',
+		'type'        => 'text',
+	  ) );
+
+	  $dataeg_campos_sliders->add_field( array(
+		'name'        => esc_html__( 'Enlace', 'cmb2' ),
+		'id'      => $prefix . 'enlace_href',
+		'type'        => 'text',
+	  ) );
 
      $dataeg_campos_sliders->add_field( array(
 		'name' => esc_html__( 'Imagen Slider', 'cmb2' ),

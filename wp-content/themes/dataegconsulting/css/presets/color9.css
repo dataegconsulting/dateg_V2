@@ -7,7 +7,7 @@
 .sfCloser:hover:after, .sfCloser:hover:before, .close-popup:hover:after, .close-popup:hover:before, .showit, .common_btn.red_bg:after, .testimonial_content .testi_icon, 
 .lbi_details .learnM:after
 {
-    background: #33aacc;
+    background: #e62b4a;
 }
 .singlefolio:after{
     background: rgba(51, 170, 204, .8);
@@ -27,11 +27,11 @@
 .post_author h3 a:hover, .post_author > a, .single-comment .authorDetails h5 a:hover, .single-comment .authorDetails span, .searchForms button[type="submit"]:hover,
 .color_settings .switch-btn.active, .color_settings .switch-btn:hover, .red_color
 {
-    color: #33aacc;
+    color: #e62b4a;
 }
 
 /**---- Border Color ----**/
 .back, .ab_img2:after, .agency_img1:after, .input-form.reqError, input.input-form:focus, textarea.input-form:focus
 {
-    border-color: #33aacc;
+    border-color: #e62b4a;
 }

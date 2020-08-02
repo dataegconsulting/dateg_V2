@@ -60,50 +60,5 @@
 </section>
 <!-- Portfolio Detail Section -->
 
-<!-- Related Portfolio Section -->
-<section class="commonSection relatedPortfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h4 class="sub_title">our portfolio</h4>
-                <h2 class="sec_title">related work</h2>
-                <p class="sec_desc">
-                    We are committed to providing our customers with exceptional service while<br> offering our employees the best training.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="related_slider">
-                <?php
-            $the_query = new WP_Query(array(
-                'post_type' => 'projects',
-                'showposts' => -1,
-                'post_status' => 'publish',
-                'has_password' => false,
-                'post__not_in' => array(get_the_ID())
-            ));
-            if ($the_query->have_posts()) :
-                // the loop
-                while ($the_query->have_posts()) : $the_query->the_post();
-                    ?>
-                    <div class="singlefolio">
-                        <?php echo wp_get_attachment_image(get_post_meta(get_the_ID(), 'dataeg_projects_imagen_proyecto_id', 1), ''); ?>
-                        <div class="folioHover">
-                            <a class="cate" href="#">Graphic</a>
-                            <h4><a href="portfolio_detail.html"><?php the_title(); ?></a></h4>
-                        </div>
-                    </div>
-                    </div>
-                <?php endwhile; ?>
-            <?php endif;
-        wp_reset_postdata(); ?>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Related Portfolio Section -->
-
 
 <?php get_footer(); ?>

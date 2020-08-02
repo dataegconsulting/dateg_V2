@@ -29,7 +29,6 @@ function dataeg_scripts() {
     wp_enqueue_script('jquery',                     get_template_directory_uri() . '/js/jquery.js', array('jquery'), '', true);
     wp_enqueue_script('bootstrap',                  get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '', true);
     wp_enqueue_script('custom',                     get_template_directory_uri() . '/js/modernizr.custom.js', array('jquery'), '', true);
-    wp_enqueue_script('gmaps',                      get_template_directory_uri() . '/js/gmaps.js', array('jquery'), '', true);
     wp_enqueue_script('revolution',                 get_template_directory_uri() . '/js/jquery.themepunch.revolution.min.js', array('jquery'), '', true);
     wp_enqueue_script('tools',                      get_template_directory_uri() . '/js/jquery.themepunch.tools.min.js', array('jquery'), '', true);
 
@@ -59,4 +58,10 @@ function dataeg_scripts() {
 }
 add_action('wp_enqueue_scripts', 'dataeg_scripts');
     
- 
+// -- Eliminar Jquery Migrate 
+add_filter( 'wp_default_scripts', 'removeJqueryMigrate' ); 
+function removeJqueryMigrate(&$scripts){  
+    if(!is_admin()){   $scripts->remove('jquery');   
+    $scripts->add('jquery', false, array('jquery-core'), '1.10.2');  } 
+}
+

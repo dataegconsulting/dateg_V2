@@ -4,7 +4,7 @@ function dataeg_widgets_sidebar(){
 
     register_sidebar(array(
 
-        'name'         => 'Widget Lateral',
+        'name'         => 'Menu Servicios',
         'id'           => 'sidebar_widget',
         'class'         => '<ul>',
         'before_widget' => '<div class="meipaly_categorie_widget ">',

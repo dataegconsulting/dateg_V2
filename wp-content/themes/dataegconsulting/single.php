@@ -24,25 +24,18 @@
                                 </div>
                                 <div class="blog_headings">
                                     <span class="blog_date" style="width: 120px!important;"><?php echo get_the_date('j F, Y'); ?></span>
-                                    <h2><?php the_title(); ?></h2>
-                                    <p class="blog_metas">
-                                        <a href="#">By layerdrops</a>-<a href="#">30 Likes</a>-<a href="#">2 Comments</a>
-                                    </p>
+                                    <h2><?php the_title(); ?></h2> 
                                 </div>
                             
                                 <div class="blog_details"> <?php the_content(); ?> </div>
-
-                                <div class="blog_tagitems">
-                                    <span>Tags:</span><a href="#">Business</a>, <a href="#">Agency</a>, <a href="#">Digital</a>, <a href="#">Technology</a>
-                                </div>
                             </div>
                             <?php 
                         endwhile;
                     endif;
                 ?> 
+                <?php get_template_part( 'template-parts/post/content','previous' ); ?>
             </div>
-            
-
+           
             <div class="col-lg-4 col-sm-4 sidebar">
 
                 <aside class="widget search-widget">
@@ -51,21 +44,21 @@
                     </form>
                 </aside>
 
-                <?php get_template_part('template-parts/sidebar/noticias', 'lateral'); ?>
+                <?php get_template_part('template-parts/post/noticias', 'lateral'); ?>
 
+                <!--Sidebar Menu Servicios -->
+                
                 <aside class="widget categories">
                     <h3 class="widget_title">Servicios</h3>
-                   
+                    <?php
+                    if (!is_active_sidebar('sidebar_widget')) {
+                    return;
+                    }
+                    dynamic_sidebar('sidebar_widget');
+                ?>
                 </aside>
-
-                <aside class="widget">
-                    <h3 class="widget_title">Tags:</h3>
-                    <div class="meipaly_tagcloude_widget">
-                        <a href="#">Business,</a> <a href="#">Agency,</a> <a href="#">Digital,</a> <a href="#">Technology,</a>
-                        <a href="#">Parallax,</a> <a href="#">Innovative,</a> <a href="#">Professional,</a>
-                        <a href="#">Experience,</a>
-                    </div>
-                </aside>
+                <?php get_template_part('template-parts/post/tags'); ?>
+                
 
             </div>
         </div>

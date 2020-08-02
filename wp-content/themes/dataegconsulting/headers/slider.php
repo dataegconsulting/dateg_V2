@@ -32,7 +32,7 @@
                                     data-width="100%"
                                     data-height="['auto]"
                                     data-whitesapce="['normal']"
-                                    data-fontsize="20"
+                                    data-fontsize="80"
                                     data-lineheight="36"
                                     data-fontweight="400"
                                     data-letterspacing="2"
@@ -52,7 +52,7 @@
                                     data-whitesapce="['normal']"
                                     data-word-wrap="['normal']"
                                     data-white-break="['break-all']"
-                                    data-fontsize="20"
+                                    data-fontsize="80"
                                     data-lineheight="['112', '80', '65', '50']"
                                     data-fontweight="700"
                                     data-letterspacing="['4.4', '4.4', '2', '1']"
@@ -70,11 +70,11 @@
                                     data-width="100%"
                                     data-height="['auto]"
                                     data-whitesapce="['normal']"
-                                    data-fontsize="16"
+                                    data-fontsize="20"
                                     data-lineheight=""
                                     data-fontweight="400"
                                     data-textAlign="center"
-                                    ><a href="#" class="common_btn"><span>DISCOVER MOREs</span></a>
+                                    ><a href="<?php echo get_post_meta(get_the_ID(),'dataeg_sliders_enlace_href', true);?>" class="common_btn"><span><?php echo get_post_meta(get_the_ID(),'dataeg_sliders_titulo_enlace', true);?></span></a>
                                 </div>
                             </li>
                             <?php 

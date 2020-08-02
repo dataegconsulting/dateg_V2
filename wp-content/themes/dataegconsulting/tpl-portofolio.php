@@ -4,7 +4,7 @@
 get_header(); ?>
 
 <!-- Page Banner -->
-<?php get_template_part( 'template-parts/pagebanner' ); ?>
+<?php get_template_part( 'template-parts/header-servicios' ); ?>
 <!-- Page Banner -->
 
 <!-- Portfolio Section -->
